@@ -1,22 +1,9 @@
-# 🍽️ Project: Simple API 2 - Restaurant
+# Recommended Meals
 
-### Goal: Build a simple front-end app that displays data returned from an api that would be beneficial to someone working at or managing a restaurant. 
+Enter a max calorie count and it finds recipes that fit, with macros and a photo for each. Hit "something else" to cycle through the results.
 
-### How to submit your code for review:
+![Recommended Meals screenshot](screenshot.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Two fiddly bits: the API ignores you unless the key rides along in the headers, and the switch button has to wrap the index back to zero at the end of the list, or it tries to display a meal that doesn't exist.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Spoonacular API, vanilla JavaScript. My code is on the `answer` branch.
